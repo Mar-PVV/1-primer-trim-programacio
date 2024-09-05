@@ -136,3 +136,8 @@ Few keyboard commands that are very helpful:
 3. Ves a l'escriptori i crea una nova carpeta anomemanda *Test2* i dins d'aquesta una altra anomanada *Test2-filla*.
 4. Ves fins a la carpeta *Test2-filla*.
 5. Des d'aquí copia el fitxer *learning.txt* a la carpeta *Test2-filla*.
+
+## Webs interessants
+[Més comandes de Windows](https://phoenixnap.com/kb/cmd-commands#ftoc-heading-70)
+
+[Comandes de Linux/Mac](https://gist.github.com/bradtraversy/cc180de0edee05075a6139e42d5f28ce)
