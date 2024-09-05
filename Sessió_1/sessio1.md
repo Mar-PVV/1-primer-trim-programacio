@@ -44,12 +44,14 @@ To change to the parent directory, use the following shortcut:
 cd ..
 ```
 
-> Truc! Amb un clic al `Tab` et sortiran les carpetes on pots anar. Clicant successivament `Tab` se't escriurà directament el nom de la carpeta a la línia de comandes.
+Truc!
+> Amb un clic al `Tab` et sortiran les carpetes on pots anar. Clicant successivament `Tab` se't escriurà directament el nom de la carpeta a la línia de comandes.
 >
 > També pots clicar `Tab` un cop començat el nom de la carpeta i llavors se't completarà automàticament.
 
+A tenir en compte!
 > Cal destacar que amb l'ús de la línia de comandes és difícil interectuar amb carpetes i fitxers que tenen espais o accents en el seu nom.
->
+
 ### `md` Command
 
 The md or mkdir (**m**ake **d**irectory) commands create a new directory or subdirectory. The command syntax is:

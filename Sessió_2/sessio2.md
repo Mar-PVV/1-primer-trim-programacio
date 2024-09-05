@@ -85,6 +85,7 @@ Busca les funcions integrades per els següents canvis de variables:
 - Integers or floats to strings
 
 Anem a provar el següent pels Booleans:
+
 ```python
 # Convert True to int
 int(True)
@@ -111,9 +112,10 @@ Què n'extreus?
 
 ## Operacions bàsiques amb nombres i variables
 
-### Operacions bàsiques amb nombres 
+### Operacions bàsiques amb nombres
 
 Operacions bàsiques amb nombres:
+
 ```python
 # Addition operation expression
 43 + 60 + 16 + 41
