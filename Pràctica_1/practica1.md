@@ -1,6 +1,6 @@
-# SESSIÓ 1 - Comandes bàsiques del terminal
+# PRÀCTICA 1 - Comandes bàsiques del terminal
 
-En aquest primer capítol veurem comandes bàsiques del terminal  Windows CMD (Command Prompt).
+En aquesta primera pràctica veurem comandes bàsiques del terminal  Windows CMD (Command Prompt).
 
 ## Teoria
 

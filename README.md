@@ -1,9 +1,13 @@
 # Primer trimestre programació
 
-## Sessió 1 - Comandes bàsiques de la consola
+## Pràctica 1 - Comandes bàsiques de la consola
 
-Ves al material de la [sessió 1](./Sessió_1/sessio1.md).
+Ves al material de la [pràctica 1](./Pràctica_1/practica1.md).
 
-## Sessió 2 - First steps amb Python
+## Pràctica 2 - First steps amb Python
 
-Ves al material de la [sessió 2](./Sessió_2/sessio2.md).
+Ves al material de la [pràctica 2](./Pràctica_2/practica2.md).
+
+## Pràctica 3 - Set up Git i GitHub
+
+Ves al material de la [pràctica 3](./Pràctica_3/practica3.md).
