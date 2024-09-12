@@ -43,7 +43,7 @@ Guardeu el README.md, què us apareix? Què us proposa el GitHub?
 
 ### Baixem el repositori al nostre workspace
 
-En aquest apartat ens baixarem el repositori remot, el que acabem de crear al GitHub, com a repositori local per poder treballar des del nostre workspace. 
+En aquest apartat ens baixarem el repositori remot, el que acabem de crear al GitHub, com a repositori local per poder treballar des del nostre workspace.
 
 Obrim el terminal i anem dins la carpeta de programació.
 
@@ -55,7 +55,7 @@ git clone <url del repositori remot>
 
 Com trobar la url:
 
-![](./imatge_copy_url.png)
+![Alt text](./imatge_copy_url.png  "Copy url image")
 
 Mirem que ens apareix:
 
@@ -66,8 +66,17 @@ dir
 ```
 
 Observem l'status del git:
+
 ```bash
 git status
 ```
 
-### Creem un document i el pugem al reomte repository
+### Creem un fitxer i el pugem al reomte repository
+
+Crea un fitxer Python dins del respositori local `my-first-repo` amb un programa que donat el nom i els anys d'una persona (variables inicials), t'imprimeix per pantalla: `El/La <nom> té <anys> anys i, per tant, porta viu <segons> segons.`
+
+Un cop provat el programa, posa en pràctica les comandes corresponents per pujar el nou fitxer del repositori al repositori remot de GitHub. El missatge del commit a de descriure els canvis que hem fet. Per exemple: Afegir programa Python years to seconds.
+
+### Modifiquem el README i pugem els canvis
+
+Modifica el README per afegir la descripció del programa que has creat. Fes un apartat `Command Cheat Sheet` al README amb les comandes de git necessàries per actualitzar els canvis del repositori remot. Utilitza els estils pertinents del Markdown.
