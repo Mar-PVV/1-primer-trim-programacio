@@ -43,5 +43,31 @@ Guardeu el README.md, què us apareix? Què us proposa el GitHub?
 
 ### Baixem el repositori al nostre workspace
 
+En aquest apartat ens baixarem el repositori remot, el que acabem de crear al GitHub, com a repositori local per poder treballar des del nostre workspace. 
 
+Obrim el terminal i anem dins la carpeta de programació.
 
+En aquesta fem:
+
+```bash
+git clone <url del repositori remot>
+```
+
+Com trobar la url:
+
+![](./imatge_copy_url.png)
+
+Mirem que ens apareix:
+
+```bash
+dir
+cd my-first-repo
+dir
+```
+
+Observem l'status del git:
+```bash
+git status
+```
+
+### Creem un document i el pugem al reomte repository

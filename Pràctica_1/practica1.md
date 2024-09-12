@@ -184,7 +184,7 @@ Few keyboard commands that are very helpful:
 5. Des d'aquí copia el fitxer `learning.txt` a la carpeta `Test2-filla`.
 6. Mostra el resultat a la professora.
 7. Suprimeix totes les carpetes i documents creats.
-8. Crea la carpeta on anirà tot el material de l'optativa de Programació. Com a recomanació, no utilitzis espais i crea-la en un lloc fàcilment accessible des del terminal.
+8. Crea la carpeta on anirà tot el material de l'optativa de Programació. Com a recomanació, no utilitzis espais i crea-la en un lloc fàcilment accessible des del terminal, per exemple en l'escriptori.
 
 ## Webs interessants
 
