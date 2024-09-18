@@ -75,7 +75,7 @@ git status
 
 Crea un fitxer Python dins del respositori local `my-first-repo` amb un programa que donat el nom i els anys d'una persona (variables inicials), t'imprimeix per pantalla: `El/La <nom> té <anys> anys i, per tant, porta viu <segons> segons.`
 
-Un cop provat el programa, posa en pràctica les comandes corresponents per pujar el nou fitxer del repositori al repositori remot de GitHub. El missatge del commit a de descriure els canvis que hem fet. Per exemple: Afegir programa Python years to seconds.
+Un cop provat el programa, posa en pràctica les comandes corresponents per pujar el nou fitxer del repositori al repositori remot de GitHub. El missatge del commit ha de descriure els canvis que hem fet. Per exemple: Afegir programa Python years to seconds.
 
 ### Modifiquem el README i pugem els canvis
 
