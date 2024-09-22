@@ -4,7 +4,7 @@ En aquesta pràctica instal·larem i farem la primera presa de contacte amb el G
 
 ## Teoria
 
-Consulta el pdf de teoria.
+Consulta el [pdf](./Pràctica_3-Teoria.pdf) de teoria.
 
 ## Pràctica
 
