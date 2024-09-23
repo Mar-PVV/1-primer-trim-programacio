@@ -170,6 +170,7 @@ print(num_hores + ' hores són ' + num_minuts + ' minuts.')
 ```
 
 Ara per provar, ves a la consola a la carpeta corresponent i prova:
+
 ```bash
 py hores_a_segons.py
 ```
@@ -388,6 +389,27 @@ Name.find('Jasdfasdasdf')
 De la següent pàgina [web](https://www.w3schools.com/python/python_exercises.asp) completa els exericis següents:
 
 - Tots els de Strings
+
+## Pràctica
+
+### Juguem amb nombres
+
+Crea un document dins de `Pràctica_2` que es digui `nombres.py`.
+Donats tres nombres naturals d'una xifra (els que tu vulguis), fes que el programa mostri per pantalla tots els nombres de 2 xifres que es poden crear a partir d'aquests tres nombres (es poden repetir).
+
+Exemple de la sortida del programa:
+
+> Tinc els nombres 2, 5 i 7. Amb ells puc crear X nombres diferents de dues xifres:
+> El 22, 25, 27, 52, ...
+
+### De segons a dies
+
+Crea un document dins de `Pràctica_2` que es digui `segons_a_dies.py`.
+Crea la variable `segons=278718`. Fes que el programa mostri per pantalla quants dies, hores, minuts i segons són.
+
+### Comptem paraules
+
+Escriure aquí
 
 ## Pàgines útils de Python
 
