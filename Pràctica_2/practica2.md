@@ -394,22 +394,57 @@ De la següent pàgina [web](https://www.w3schools.com/python/python_exercises.a
 
 ### Juguem amb nombres
 
-Crea un document dins de `Pràctica_2` que es digui `nombres.py`.
+Crea un document dins de `Pràctica_2` anomenat `nombres.py`.
 Donats tres nombres naturals d'una xifra (els que tu vulguis), fes que el programa mostri per pantalla tots els nombres de 2 xifres que es poden crear a partir d'aquests tres nombres (es poden repetir).
 
 Exemple de la sortida del programa:
 
 > Tinc els nombres 2, 5 i 7. Amb ells puc crear X nombres diferents de dues xifres:
+>
 > El 22, 25, 27, 52, ...
 
 ### De segons a dies
 
-Crea un document dins de `Pràctica_2` que es digui `segons_a_dies.py`.
-Crea la variable `segons=278718`. Fes que el programa mostri per pantalla quants dies, hores, minuts i segons són.
+Crea un document dins de `Pràctica_2` anomenat `segons_a_dies.py`.
+Crea la variable `segons = 278718`. Fes que el programa mostri per pantalla quants dies, hores, minuts i segons són.
 
-### Comptem paraules
+### Jocs amb una paraula
 
-Escriure aquí
+Crea un document dins de `Pràctica_2` anomenat `paraula.py`.
+Crea una variable que sigui `paraula` i assigna-li qualsevol paraula de 5 lletres que vulguis en minúscula.
+
+Un cop tinguis aquesta paraula, utilitzant els mètodes mostrats i altres que pots trobar [aquí](https://www.w3schools.com/python/python_strings.asp), fes que el teu programa retorni:
+
+- El nombre de lletres que té la paraula
+- Les dues primeres llertes de la paraula
+- Les dues últimes
+- La paraula amb la primera lletra majúscula
+- La paraula tota amb majúscula
+- La paraula repetida 5 vegades
+- La paraula més un espai i el teu nom
+
+### Juguem amb un conte
+
+Crea un document dins de `Pràctica_2` anomenat `conte.py`.
+Crea la variable següent:
+
+```python
+conte = """Vet aquí una vegada, als afores d’un poble molt petit situat ben amunt de la muntanya, hi vivia la família d’una nena. A la nena li agradava molt posar-se un abric vermell amb caputxa que li havia fet la seva àvia. Encara que no fes gota de fred ella sempre volia posar-se la caputxa. És per això que per aquelles contrades li deien La Caputxeta Vermella.
+
+La Caputxeta era una nena alegre. Com totes les nenes tenia moments per tot, però generalment era riallera i divertida. Cada dimecres acompanyava a la seva mare al mercat a comprar fruites i verdures per casa. Aquell mateix dia abans que es fes fosc, les dues creuaven el bosc per visitar a la seva àvia que estava malalta i portar-li algunes provisions del mercat.
+
+Un dia, en tornar del mercat, la mare de La Caputxeta no es trobava massa bé i va dir-li que no anirien a casa l’àvia aquella tarda. L’àvia vivia sola en una casa al mig del bosc i com que en aquella època no tenien telèfons la Caputxeta va pensar que si no anava ningú a visitar-la, potser es preocuparia."""
+```
+
+Fitxa't que els strings que ocupen múltiples línies s'han d'emmarcar entre tres dobles cometes `"""`.
+
+Un cop tens el conte copiat, consultant els diferents [mètodes dels Strings](https://www.w3schools.com/python/python_strings_methods.asp), fes que el programa retorni:
+
+- El text inicial
+- Quants caràcters té el text
+- Quantes vegades apareix `Caputxeta` al text
+- El text des de l'inici fins el primer cop que surt Caputxeta (sense retallar el text sinó amb mètodes de Strings)
+- El text canviant `Caputxeta` per `Caputxa` (a partir de mètodes de Strings)
 
 ## Pàgines útils de Python
 
