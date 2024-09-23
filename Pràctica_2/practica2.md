@@ -23,7 +23,7 @@ print('Hello World!')
 Executa el programa:
 
 ```bash
-python .\hello_world.py
+py hello_world.py
 ```
 
 ## Python IDLE
@@ -167,6 +167,11 @@ Ara, podem millorar el nostre programa mostrant per pantalla una mica més d'inf
 num_hores = 120
 num_minuts = num_hores * 60
 print(num_hores + ' hores són ' + num_minuts + ' minuts.')
+```
+
+Ara per provar, ves a la consola a la carpeta corresponent i prova:
+```bash
+py hores_a_segons.py
 ```
 
 Quin error et surt? Com ho arreglaries?
