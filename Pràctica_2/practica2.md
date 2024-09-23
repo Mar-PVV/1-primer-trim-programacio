@@ -446,6 +446,10 @@ Un cop tens el conte copiat, consultant els diferents [mètodes dels Strings](ht
 - El text des de l'inici fins el primer cop que surt Caputxeta (sense retallar el text sinó amb mètodes de Strings)
 - El text canviant `Caputxeta` per `Caputxa` (a partir de mètodes de Strings)
 
+### Entrega
+
+Entrega al Classroom els fitxers creats dins la carpeta `Pràctica_2`.
+
 ## Pàgines útils de Python
 
 Guardeu-les per tenir-les accessibles.
