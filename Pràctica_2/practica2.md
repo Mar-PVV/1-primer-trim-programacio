@@ -407,10 +407,6 @@ Exemple de la sortida del programa:
 Crea un document dins de `Pràctica_2` que es digui `segons_a_dies.py`.
 Crea la variable `segons=278718`. Fes que el programa mostri per pantalla quants dies, hores, minuts i segons són.
 
-### Comptem paraules
-
-Escriure aquí
-
 ## Pàgines útils de Python
 
 Guardeu-les per tenir-les accessibles.
