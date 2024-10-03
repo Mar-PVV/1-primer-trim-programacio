@@ -2,7 +2,7 @@
 
 En aquesta pràctica coneixerem noves estructures de programació i la seva sintaxis en Python.
 
-## Preparaicó
+## Prepara`ció
 
 Crea un nou repositori de GitHub anomenat `practiques-1-trim-el_teu_nom` (sense cognoms). Configuració:
 
@@ -228,3 +228,113 @@ if 33 > 200 or 200 > 500:
 else:
     print("Both conditions are False")
 ```
+
+#### Not - no
+
+The `not` keyword is a logical operator, and is used to reverse the result of the conditional statement:
+
+```python
+# Example 1
+plou = True
+
+if not plou:
+    print("No està plovent")
+else:
+    print("Plou")
+
+# Example 2
+num_1 = 33
+num_2 = 200
+if not num_1 > num_2:
+    print(num_1 + " no és més gran que " + num_2)
+```
+
+#### Nested If
+
+You can have `if` statements inside `if` statements, this is called nested if statements.
+
+```python
+x = 41
+
+if x > 10:
+  print("Above ten,")
+  if x > 20:
+    print("and also above 20!")
+  else:
+    print("but not above 20.")
+```
+
+#### The pass Statement
+
+`if` statements cannot be empty, but if you for some reason have an `if` statement with no content, put in the `pass` statement to avoid getting an error.
+
+```python
+a = 33
+b = 200
+
+if b > a:
+  pass
+```
+
+### Exercici 2
+
+Tenim la següent llista de preus:
+
+1. Llibreta 3€
+2. Llapis 1,50€
+3. Pack de retoladors 3,50€
+4. Calculadora 23€
+5. Estoig 8€
+
+Crea una variable a partir del generador random d'integers que et retorni un número enter de l'1 al 5 (inclosos). A partir de combinacions de `If-Else` fes que es mostri per pantalla `El producte seleccionat costa <preu>€.`
+
+### Exercici 3
+
+Genera dos nombres random que puguin anar del -10 al 10. Fes que el programa et retorni si:
+
+- Els dos nombres són positius
+- Els dos nombres són negatius
+- Els dos nombres són zero
+- Si n'hi ha un de cada (un positiu i un negatiu)
+- Si un és positiu i l'altre un zero.
+- Si un és negatiu i l'altre un zero.
+
+### Exercici 4
+
+Genera un nombre aleatori del 0 al 5000. Fes que et retorni si el nombre generat seria un any de traspàs. El missatge final seria: `L'any <any> és/no és any de traspàs.`.
+
+### Exercici 5
+
+Genera un nombre aleatori del 1 al 12, interpretant els mesos de l'any. Fes que et retorni quants dies té aquest mes: `El mes número <num_mes> té <num_dies> dies.`
+
+### Exercici 6
+
+Genera 3 nombres aleatoris del 1 al 100. Cadascun d'aquests tres nombres representa els costats d'un triangle. Fes que el programa retorni si és un triangle equilàter, isòsceles o escalé. Fes que també et digui si es tracta d'un triangle rectangle.
+
+### Exercici 7
+
+Crea les següents dues variables: 
+
+```python
+toca_programacio = bool(random.randint(0,1))
+ordinador_carregat = bool(random.randint(0,1))
+```
+
+Segons les condicions fes que retorni:
+
+- Tot correcte!
+- Falta de material.
+
+### Exercici 8
+
+Crea les següents dues variables: 
+
+```python
+anem_viatge = bool(random.randint(0,1))
+entre_setmana = bool(random.randint(0,1))
+```
+
+Segons les condicions fes que retorni:
+
+- Posar alarma a les 7h
+- Desacivar alarma
