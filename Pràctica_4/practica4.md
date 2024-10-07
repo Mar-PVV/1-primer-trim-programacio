@@ -2,7 +2,7 @@
 
 En aquesta pràctica coneixerem noves estructures de programació i la seva sintaxis en Python.
 
-## Prepara`ció
+## Preparació
 
 Crea un nou repositori de GitHub anomenat `practiques-1-trim-el_teu_nom` (sense cognoms). Configuració:
 
