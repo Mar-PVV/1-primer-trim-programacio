@@ -1,8 +1,8 @@
-# PRÀCTICA 4 - Noves estructures de programació
+# PRÀCTICA 4 - Estructura If Else
 
 En aquesta pràctica coneixerem noves estructures de programació i la seva sintaxis en Python.
 
-## Prepara`ció
+## Preparació
 
 Crea un nou repositori de GitHub anomenat `practiques-1-trim-el_teu_nom` (sense cognoms). Configuració:
 
@@ -14,9 +14,7 @@ Un cop creat, vés a `Settings > Collaborators > Add people > 'Mar-PVV'`.
 
 Clona aquest repositori dins de la teva carpeta `Programació`. Dins de `practiques-1-trim-el_teu_nom` crea una carpeta anomanda `Pràctica_4`. Aquí anirem creant els arxius d'aquesta pràctica.
 
-## Python If ... Else
-
-### Introducció
+## Introducció
 
 En la programació tenen una gran utilitat els condicionals normalment anomenats "If - Else". Veiem un exemple amb llenguatge natural:
 
@@ -40,7 +38,7 @@ else:
     print("No cal agafar el paraigües.")
 ```
 
-### Python Indentation
+## Python Indentation
 
 Per tal de que el programa "entri" dins del `print("Agafo el paraigües.")` o l'altra opció, s'ha de posar l'indentation (espais en blanc al principi de la línia). Aquesta indentation la fem utilitzant la tecla `Tab` del nostre teclat, la que té una / dues fletxes sobre el `Bloq Maj`.
 
@@ -56,13 +54,13 @@ else:
 print("No cal agafar el paraigües.")
 ```
 
-### Logic Conditions
+## Logic Conditions
 
 S'ha de tenir en compte que l'`<statement>` o condició, en el cas de l'exemple el `plou`, ha de ser una condició lògica, o sigui que el seu resultat sigui o `True` o `False`.
 
 Anem a veuren algunes des de l'IDLE del Python:
 
-#### Numèriques
+### Numèriques
 
 ```python
 # Equals
@@ -92,7 +90,7 @@ Una mica el resum:
 - Greater than: `a > b`
 - Greater than or equal to: `a >= b`
 
-#### Altres tipus de condicions
+### Altres tipus de condicions
 
 Anem a provar amb els Strings. A l'IDLE:
 
@@ -107,7 +105,7 @@ name = 'Carla'
 
 Entre moltes d'altres que anirem treballant o que podem aconseguir a través de mètodes i funcions.
 
-### Exercici 1
+## Exercici 1
 
 Crea un fitxer Python anomenat `exercici_1` dins de la carpeta `Pràctica_4`. Per aquest exercici necessitarem una funció que ens genera nombres random i que la trobem al mòdul `random`. Per això al principi del fitxer posem:
 
@@ -136,7 +134,7 @@ Un cop et funcioni, guarda l'arxiu i actualitza el repositori al GitHub utilitza
 
 Anem a continuar amb més detalls sobre l'`If-Else`. Font [W3S](https://www.w3schools.com/python/python_conditions.asp).
 
-### Elif
+## Elif
 
 The `elif` keyword is Python's way of saying "if the previous conditions were not true, then try this condition".
 
@@ -151,7 +149,7 @@ else:
   print("a is greater than b")
 ```
 
-### Short Hand If
+## Short Hand If
 
 If you have only one statement to execute, you can put it on the same line as the if statement.
 
@@ -159,7 +157,7 @@ If you have only one statement to execute, you can put it on the same line as th
 if a > b: print("a is greater than b")
 ```
 
-### Short Hand If ... Else
+## Short Hand If ... Else
 
 If you have only one statement to execute, one for if, and one for else, you can put it all on the same line:
 
@@ -169,7 +167,7 @@ b = 330
 print("A") if a > b else print("B")
 ```
 
-### Logical operators
+## Logical operators
 
 Els operadors lògics ens permetran itereccionar entre diferents statements. Anem a veure un exemple amb llenguatge natural:
 
@@ -197,7 +195,7 @@ si no: # si no porto ni efectiu ni targeta
 
 Veiem-los tots:
 
-#### And - i
+### And - i
 
 The `and` keyword is a logical operator, and is used to combine conditional statements:
 
@@ -213,7 +211,7 @@ else:
     print("One or both conditions are not True")
 ```
 
-#### Or - o
+### Or - o
 
 The `or` keyword is a logical operator, and is used to combine conditional statements:
 
@@ -229,7 +227,7 @@ else:
     print("Both conditions are False")
 ```
 
-#### Not - no
+### Not - no
 
 The `not` keyword is a logical operator, and is used to reverse the result of the conditional statement:
 
@@ -249,7 +247,7 @@ if not num_1 > num_2:
     print(num_1 + " no és més gran que " + num_2)
 ```
 
-#### Nested If
+### Nested If
 
 You can have `if` statements inside `if` statements, this is called nested if statements.
 
@@ -264,7 +262,7 @@ if x > 10:
     print("but not above 20.")
 ```
 
-#### The pass Statement
+### The pass Statement
 
 `if` statements cannot be empty, but if you for some reason have an `if` statement with no content, put in the `pass` statement to avoid getting an error.
 
@@ -276,7 +274,7 @@ if b > a:
   pass
 ```
 
-### Exercici 2
+## Exercici 2
 
 Tenim la següent llista de preus:
 
@@ -288,7 +286,7 @@ Tenim la següent llista de preus:
 
 Crea una variable a partir del generador random d'integers que et retorni un número enter de l'1 al 5 (inclosos). A partir de combinacions de `If-Else` fes que es mostri per pantalla `El producte seleccionat costa <preu>€.`
 
-### Exercici 3
+## Exercici 3
 
 Genera dos nombres random que puguin anar del -10 al 10. Fes que el programa et retorni si:
 
@@ -299,21 +297,21 @@ Genera dos nombres random que puguin anar del -10 al 10. Fes que el programa et 
 - Si un és positiu i l'altre un zero.
 - Si un és negatiu i l'altre un zero.
 
-### Exercici 4
-
-Genera un nombre aleatori del 0 al 5000. Fes que et retorni si el nombre generat seria un any de traspàs. El missatge final seria: `L'any <any> és/no és any de traspàs.`.
-
-### Exercici 5
+## Exercici 4
 
 Genera un nombre aleatori del 1 al 12, interpretant els mesos de l'any. Fes que et retorni quants dies té aquest mes: `El mes número <num_mes> té <num_dies> dies.`
 
-### Exercici 6
+## Exercici 5
 
 Genera 3 nombres aleatoris del 1 al 100. Cadascun d'aquests tres nombres representa els costats d'un triangle. Fes que el programa retorni si és un triangle equilàter, isòsceles o escalé. Fes que també et digui si es tracta d'un triangle rectangle.
 
-### Exercici 7
+## Exercici 6
 
-Crea les següents dues variables: 
+Genera un nombre aleatori del 0 al 5000. Fes que et retorni si el nombre generat seria un any de traspàs. El missatge final seria: `L'any <any> és/no és any de traspàs.`.
+
+## Exercici 7
+
+Crea les següents dues variables:
 
 ```python
 toca_programacio = bool(random.randint(0,1))
@@ -325,12 +323,12 @@ Segons les condicions fes que retorni:
 - Tot correcte!
 - Falta de material.
 
-### Exercici 8
+## Exercici 8
 
-Crea les següents dues variables: 
+Crea les següents dues variables:
 
 ```python
-anem_viatge = bool(random.randint(0,1))
+es_festiu = bool(random.randint(0,1))
 entre_setmana = bool(random.randint(0,1))
 ```
 
@@ -338,3 +336,27 @@ Segons les condicions fes que retorni:
 
 - Posar alarma a les 7h
 - Desacivar alarma
+
+## Exercici 9
+
+Volem crear un sistema de validació de contrasenyes. Per tal que la contrasenya sigui correcta ha de complir que:
+
+- No tingui espais
+- Tingui com a mínim 8 caràcters
+- Tingui com a mínim 1 majúscula
+- Tingui com a mínim 1 nombre
+- Tingui com a mínim un dels següents símbols especials: . @ # $ % _ - *
+
+Crea una variable anomenada `pwd` (password) i fes que el programa et retorni, segons les indicacions anteriors:
+
+- Contrasenya adequada!
+- Eps! No compleixes alguna de els condicions, torna a provar!
+
+## Exercici 10
+
+En el formulari d'inscripció d'una pàgina web els usuaris han d'entrar la seva data de naixement.
+
+Crea les variables `dia`, `mes` i `any` i fes que el programa et retorni, segons les indicacions anteriors:
+
+- Data correcta.
+- Eps! Aquesta data no és correcta!

@@ -12,6 +12,6 @@ Ves al material de la [pràctica 2](./Pràctica_2/practica2.md).
 
 Ves al material de la [pràctica 3](./Pràctica_3/practica3.md).
 
-## Pràctica 4 - Noves estructures de programació
+## Pràctica 4 - Estructura If Else
 
 Ves al material de la [pràctica 4](./Pràctica_4/practica4.md).
