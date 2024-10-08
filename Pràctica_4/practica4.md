@@ -360,3 +360,13 @@ Crea les variables `dia`, `mes` i `any` i fes que el programa et retorni, segons
 
 - Data correcta.
 - Eps! Aquesta data no és correcta!
+
+## Per tancar la pràctica
+
+Introdueix en el README.md general un esquema tipus [aquest](../README.md), que et redirigeixi a la carpeta de cada pràctica. Posa en el títol el nom corresponent a la pràctica 4.
+
+A més, crea un fitxer `.md` en la pràctica 4 i copia els enunciats dels 10 exercicis. A més crea un link per poder accedir a fitxer `.py` des de l'enunciat corresponent. Per exemple amb una frase tipus:
+
+> Accedeix a la resolució d'aquest exercici clicant aquí.
+
+A partir d'ara, l'estructura de cada pràctica d'aquest repositori serà així.
