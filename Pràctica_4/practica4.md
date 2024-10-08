@@ -1,6 +1,6 @@
 # PRÀCTICA 4 - Estructura If Else
 
-En aquesta pràctica coneixerem noves estructures de programació i la seva sintaxis en Python.
+En aquesta pràctica coneixerem l'estructura de programació `if-else` i la seva sintaxis en Python.
 
 ## Preparació
 
@@ -365,7 +365,7 @@ Crea les variables `dia`, `mes` i `any` i fes que el programa et retorni, segons
 
 Introdueix en el README.md general un esquema tipus [aquest](../README.md), que et redirigeixi a la carpeta de cada pràctica. Posa en el títol el nom corresponent a la pràctica 4.
 
-A més, crea un fitxer `.md` en la pràctica 4 i copia els enunciats dels 10 exercicis. A més crea un link per poder accedir a fitxer `.py` des de l'enunciat corresponent. Per exemple amb una frase tipus:
+A més, crea un fitxer `.md` en la pràctica 4 i copia els enunciats dels 10 exercicis. En aquest fitxer crea links per poder accedir als fitxers `.py` des de l'enunciat corresponent. Per exemple amb una frase tipus:
 
 > Accedeix a la resolució d'aquest exercici clicant aquí.
 
