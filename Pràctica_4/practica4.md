@@ -343,8 +343,6 @@ Volem crear un sistema de validació de contrasenyes. Per tal que la contrasenya
 
 - No tingui espais
 - Tingui com a mínim 8 caràcters
-- Tingui com a mínim 1 majúscula
-- Tingui com a mínim 1 nombre
 - Tingui com a mínim un dels següents símbols especials: . @ # $ % _ - *
 
 Crea una variable anomenada `pwd` (password) i fes que el programa et retorni, segons les indicacions anteriors:
