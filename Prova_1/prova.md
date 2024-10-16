@@ -24,7 +24,7 @@ Clona el repositori a la teva carpeta Programació del teu workspace.
 
 Si no has creat el repositori crea una carpeta anomenada `prova` dins la carpeta Programació del teu workspace.
 
-Dins del respositori `prova-1-prog-el_teu_nom` o dins la carpeta `prova`, crea un fitxer Python anomenat `exercici_3`.
+Dins del respositori `prova-1-prog-el_teu_nom` o dins la carpeta `prova`, crea un fitxer Python anomenat `exercici_2`.
 
 Fes un programa que donat un número, `dividend`, a l'atzar de l'1 al 90 i un altre, `divisor` , de l'1 al 15 et retorni:
 
@@ -39,6 +39,8 @@ A més, fes que et retorni si la divisió és exacta o no:
 ## Exercici 3
 
 > 2 punts
+
+Dins del respositori `prova-1-prog-el_teu_nom` o dins la carpeta `prova`, crea un fitxer Python anomenat `exercici_3`.
 
 Un usuari ha d'introduir la data de naixement i quants anys té. El programa que has de fer, retorna:
 
@@ -74,7 +76,7 @@ Mira a veure quin tipus de variable et torna i utilitza-ho per millorar el progr
 
 > Extra
 
-Dins del respositori `prova-1-prog-el_teu_nom` o dins la carpeta `prova`, crea un fitxer Python anomenat `exercici_2`.
+Dins del respositori `prova-1-prog-el_teu_nom` o dins la carpeta `prova`, crea un fitxer Python anomenat `exercici_5`.
 
 **Tria un dels dos codis** següents i arregla els errors detectats per tal de que el programa funcioni correctament.
 
