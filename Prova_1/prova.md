@@ -20,9 +20,59 @@ Clona el repositori a la teva carpeta Programació del teu workspace.
 
 ## Exercici 2
 
-> 1 punt
+> 2 punts
 
 Si no has creat el repositori crea una carpeta anomenada `prova` dins la carpeta Programació del teu workspace.
+
+Dins del respositori `prova-1-prog-el_teu_nom` o dins la carpeta `prova`, crea un fitxer Python anomenat `exercici_3`.
+
+Fes un programa que donat un número, `dividend`, a l'atzar de l'1 al 90 i un altre, `divisor` , de l'1 al 15 et retorni:
+
+`La divisió de <dividend> entre <divisor> té com a quocient <quocient> i residu <residu>`
+
+![Termes d'una divisió](./images/Termes_divisió.png)
+
+A més, fes que et retorni si la divisió és exacta o no:
+
+`La divisió de <dividend> entre <divisor> és / no és exacta`
+
+## Exercici 3
+
+> 2 punts
+
+Un usuari ha d'introduir la data de naixement i quants anys té. El programa que has de fer, retorna:
+
+- `Edat i data de naixement correcta: si vas nèixer a <data> tens <edat> anys.`
+- `Edat o data de naixement incorrecta: si vas nèixer a <data> no tens <edat> anys, en tindries <edat_correcta_respecte_la_data>`
+
+Fixa't que has de tenir en compte la data d'avui.
+
+Crea les variables `dia`, `mes`, `any` i `edat`. Assigna un valor correcte per la data. Ves modificant l'edat depenent el que t'interessi provar del programa. Aquesta data correspondrà a la data de naixement i a l'edat de l'usuari.
+
+Pots crear altres variables necessaries per completar el programa.
+
+## Ampliació exercici 4
+
+> Extra
+
+Fes que el programa anterior funcioni sigui quin sigui el dia que l'utilitzes. Per això observa el mòdul que es presenta a continuació:
+
+```python
+# importing datetime module for now()
+import datetime
+    
+# using now() to get current time
+current_time = datetime.datetime.now()
+year = current_time.year
+month = current_time.month
+day = current_time.day
+```
+
+Mira a veure quin tipus de variable et torna i utilitza-ho per millorar el programa de l'exercici 4.
+
+## Exercici 4
+
+> Extra
 
 Dins del respositori `prova-1-prog-el_teu_nom` o dins la carpeta `prova`, crea un fitxer Python anomenat `exercici_2`.
 
@@ -60,56 +110,6 @@ elif mes == 4 and mes == 6 and mes == 9 and mes == 11:
 else mes == 1 and mes == 3 and mes == 5 and mes == 7 and mes == 8 and mes == 10 and mes == 12:
     print(El mes seleccionat( + str(mes) + ) té str(31) dies.)
 ```
-
-## Exercici 3
-
-> 1 punt
-
-Dins del respositori `prova-1-prog-el_teu_nom` o dins la carpeta `prova`, crea un fitxer Python anomenat `exercici_3`.
-
-Fes un programa que donat un número, `dividend`, a l'atzar de l'1 al 90 i un altre, `divisor` , de l'1 al 15 et retorni:
-
-`La divisió de <dividend> entre <divisor> té com a quocient <quocient> i residu <residu>`
-
-![Termes d'una divisió](./images/Termes_divisió.png)
-
-A més, fes que et retorni si la divisió és exacta o no:
-
-`La divisió de <dividend> entre <divisor> és / no és exacta`
-
-## Exercici 4
-
-> 2 punts
-
-Un usuari ha d'introduir la data de naixement i quants anys té. El programa que has de fer, retorna:
-
-- `Edat i data de naixement correcta: si vas nèixer a <data> tens <edat> anys.`
-- `Edat o data de naixement incorrecta: si vas nèixer a <data> no tens <edat> anys, en tindries <edat_correcta_respecte_la_data>`
-
-Fixa't que has de tenir en compte la data d'avui.
-
-Crea les variables `dia`, `mes`, `any` i `edat`. Assigna un valor correcte per la data. Ves modificant l'edat depenent el que t'interessi provar del programa. Aquesta data correspondrà a la data de naixement i a l'edat de l'usuari.
-
-Pots crear altres variables necessaries per completar el programa.
-
-## Ampliació exercici 4
-
-> Si tens temps, si no, passa a l'exercici 5
-
-Fes que el programa anterior funcioni sigui quin sigui el dia que l'utilitzes. Per això observa el mòdul que es presenta a continuació:
-
-```python
-# importing datetime module for now()
-import datetime
-    
-# using now() to get current time
-current_time = datetime.datetime.now()
-year = current_time.year
-month = current_time.month
-day = current_time.day
-```
-
-Mira a veure quin tipus de variable et torna i utilitza-ho per millorar el programa de l'exercici 4.
 
 ## Exercici 5
 
