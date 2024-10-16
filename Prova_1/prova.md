@@ -51,7 +51,7 @@ Crea les variables `dia`, `mes`, `any` i `edat`. Assigna un valor correcte per l
 
 Pots crear altres variables necessaries per completar el programa.
 
-## Ampliació exercici 4
+## Exercici 4 - Ampliació exercici 3
 
 > Extra
 
@@ -70,7 +70,7 @@ day = current_time.day
 
 Mira a veure quin tipus de variable et torna i utilitza-ho per millorar el programa de l'exercici 4.
 
-## Exercici 4
+## Exercici 5
 
 > Extra
 
@@ -111,7 +111,7 @@ else mes == 1 and mes == 3 and mes == 5 and mes == 7 and mes == 8 and mes == 10 
     print(El mes seleccionat( + str(mes) + ) té str(31) dies.)
 ```
 
-## Exercici 5
+## Exercici 6
 
 > 1 punt
 
