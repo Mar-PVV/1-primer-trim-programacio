@@ -92,6 +92,25 @@ Crea les variables `dia`, `mes`, `any` i `edat`. Assigna un valor correcte per l
 
 Pots crear altres variables necessaries per completar el programa.
 
+## Ampliació exercici 4
+
+> Si tens temps, si no, passa a l'exercici 5
+
+Fes que el programa anterior funcioni sigui quin sigui el dia que l'utilitzes. Per això observa el mòdul que es presenta a continuació:
+
+```python
+# importing datetime module for now()
+import datetime
+    
+# using now() to get current time
+current_time = datetime.datetime.now()
+year = current_time.year
+month = current_time.month
+day = current_time.day
+```
+
+Mira a veure quin tipus de variable et torna i utilitza-ho per millorar el programa de l'exercici 4.
+
 ## Exercici 5
 
 > 1 punt
