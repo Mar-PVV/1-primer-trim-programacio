@@ -321,9 +321,9 @@ Igual que el `len()` existeixen altres funcions "build-in" que ens permeten suma
 
 ```python
 thislist = [0, 3, 6, 9, 12, 15, 18, 21, 24, 27]
-print(sum(mylist))
-print(max(mylist))
-print(min(mylist))
+print(sum(thislist))
+print(max(thislist))
+print(min(thislist))
 ```
 
 Pel que fa mètodes útils de les llistes, podeu consultar [aquí](https://www.w3schools.com/python/python_lists_methods.asp).
