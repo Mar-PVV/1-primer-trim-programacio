@@ -343,7 +343,7 @@ llista_compra = ['suc de taronja', 'maduixes', 'cereals', 'pastanagues', 'cebes'
 Busca un mètode en el link de l'apartat anterior que et retorni el nombre de `cereals` que hi ha a la `llista_compra`. Mostra per pantalla la llista i després la frase `Cereals apareix <num_cereals> vegades a la llista de la compra.`
 
 ```python
-llista_compra = llista_compra = [
+llista_compra = [
     'suc de taronja', 'maduixes', 'cereals', 'pastanagues', 'cebes', 'espinacs',
     'pasta de dents', 'pa', 'llet', 'ous', 'tomàquets', 'cereals', 'formatge', 
     'iogurt', 'patates', 'arròs', 'cereals', 'pollastre', 'peix', 'llimones', 
@@ -448,7 +448,7 @@ L'usuari ha de comprar un component electrònic d'una llista donada. El programa
 
 Cal retornar els missatges corresponents.
 
-### Exercici 11
+## Exercici 11
 
 En el formulari d'inscripció d'una pàgina web els usuaris han d'entrar la seva data de naixement seguint el següent format: `08/12/2000`, on el primer nombre és el dia, el segon el mes i el tercer l'any.
 
