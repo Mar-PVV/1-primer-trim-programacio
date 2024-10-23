@@ -438,7 +438,15 @@ pressupost = 10  # Pressupost disponible
 
 ## Exercici 10
 
-L'usuari ha de comprar un component electrònic d'una llista donada. El programa:
+L'usuari ha de comprar un component electrònic d'una llista donada. 
+
+```python
+# Llista d'elements i preus
+components = ["Portàtil gaming", "Targeta gràfica RTX 4090", "Monitor 4K", "Disc SSD 2TB", "Processador Intel i9"]
+preus = [1500, 2000, 800, 250, 600]
+```
+
+El programa:
 
 1. Mostra una llista de components electrònics disponibles.
 2. Demana a l'usuari el seu pressupost.
