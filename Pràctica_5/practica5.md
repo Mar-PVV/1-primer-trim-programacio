@@ -492,8 +492,6 @@ llista_compra = [
 
 ## Per tancar la pràctica
 
-Introdueix en el README.md general un esquema tipus [aquest](../README.md), que et redirigeixi a la carpeta de cada pràctica. Posa en el títol el nom corresponent a la pràctica 5.
-
 A més, crea un fitxer `.md` en la pràctica 5 i copia els enunciats dels exercicis. En aquest fitxer crea links per poder accedir als fitxers `.py` des de l'enunciat corresponent. Per exemple amb una frase tipus:
 
 > Accedeix a la resolució d'aquest exercici clicant aquí.
