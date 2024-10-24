@@ -8,7 +8,7 @@ Escriure
 
 ## Bucle `while`
 
-Un bucle `while` executa un bloc de codi mentre una condició sigui verdadera.
+Un bucle `while` executa un bloc de codi quan la condició és `true`.
 
 ### Sintaxi `while`
 
@@ -17,10 +17,59 @@ while <condició>:
     # codi a executar
 ```
 
-## Exercici 1: Comptar fins a 10
+```python
+i = 0
 
-Crea un programa que utilitzi un bucle `while` per imprimir els números del 1 al 10.
+while i < 10:
+    print(i)
+    i = i + 1
+```
 
+### `break` statement
+
+Amb el `break` podem parar el bucle tot i que la condició continui sent certa:
+
+```python
+i = 1 
+
+while i < 6:
+    print(i)
+    if i == 3:
+        break
+    i += 1
+```
+
+### `continue` statement
+
+Amb el `continue` podem aturar la iteració actual i saltar a la següent.
+
+```python
+i = 1 
+
+while i < 6:
+    print(i)
+    if i == 3:
+        continue
+    i += 1
+```
+
+### `else` statement
+
+Amb l'`else` podem executar un bloc de codi, un cop la condició ja no sigui certa:
+
+```python
+i = 1 
+
+while i < 6:
+    print(i)
+    i += 1
+else:
+    print('i is no longer less than 6')
+```
+
+## Exercici 1: Comptar fins a 50
+
+Crea un programa que utilitzi un bucle `while` per imprimir els números del 1 al 50.
 
 ## Exercici 2: Sumar fins a un nombre
 
@@ -37,12 +86,19 @@ for <element> in <seqüència>:
     # codi a executar
 ```
 
+```python
+fruits = ['apple', 'orange', 'cherry']
+
+for fruit in fruits:
+    print(fruit)
+```
+
 ## Exercici 3: Iterar sobre una llista
 
-Crea una llista amb els noms de 5 fruits i utilitza un bucle `for` per imprimir cada fruit.
+Crea una llista amb els noms de 5 fruites i utilitza un bucle `for` per imprimir cada fruita.
 
 ```python
-fruits = ['maduixa', 'plàtan', 'poma', 'kiwi', 'taronga']
+fruits = ['maduixa', 'plàtan', 'poma', 'kiwi', 'taronja']
 ```
 
 ## Exercici 4: Taula de multiplicar
@@ -51,7 +107,7 @@ Crea un programa que demani a l'usuari un número i utilitzi un bucle `for` per 
 
 ## Exercici 5: Sumar elements d'una llista
 
-Crea una llista amb números enteros. Utilitza un bucle `for` per sumar tots els números de la llista i imprimir el resultat.
+Crea una llista amb números enters. Utilitza un bucle `for` per sumar tots els números de la llista i imprimir el resultat.
 
 ## Exercici 6: Contar elements
 
@@ -63,4 +119,4 @@ Crea un programa que utilitzi un bucle `while` per permetre a l'usuari introduir
 
 ## Exercici 8: Mostrar llista de la compra
 
-Crea un programa que permeti a l'usuari introduir elements en una llista de la compra. Utilitza un bucle `while` perquè l'usuari pugui continuar introduint elements fins que escrigui `fi`. Al final, mostra la llista de la compra.
+Crea un programa que permeti a l'usuari introduir elements en una llista de la compra. Utilitza un bucle `while` perquè l'usuari pugui continuar introduïnt elements fins que escrigui `fi`. Al final, mostra la llista de la compra.
