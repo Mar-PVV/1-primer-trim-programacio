@@ -14,7 +14,7 @@ Crea un programa que demani a l'usuari un nombre i utilitzi un bucle `while` per
 
 ### Exercici 3: Iterar sobre una llista
 
-Crea una llista amb els noms de 5 fruites i utilitza un bucle `for` per imprimir cada fruita.
+Crea una llista amb els noms de 5 fruites i utilitza un bucle `for` per imprimir el nom de cada fruita.
 
 ```python
 fruites = ['maduixa', 'plàtan', 'poma', 'kiwi', 'taronja']
@@ -24,9 +24,9 @@ fruites = ['maduixa', 'plàtan', 'poma', 'kiwi', 'taronja']
 
 Crea una llista amb números enters. Utilitza un bucle `for` per sumar tots els números de la llista i imprimir el resultat.
 
-### Exercici 5: Contar elements
+### Exercici 5: Enumerar elements
 
-Crea una llista amb alguns noms. Fes que estigui ordenada i utilitza un bucle `for` per imprimir els noms com una llista numerada.
+Crea una llista amb alguns noms. Fes que estigui ordenada i utilitza un bucle `for` per imprimir els noms de manera que formin una llista numerada.
 
 Exemple:
 
@@ -60,14 +60,14 @@ Si l'usuari introdueix el número `5`, el programa mostrarà:
 - Pots utilitzar `range()` per recórrer els números de l'1 al 10 dins del bucle `for`.
 - Recorda que dins del bucle pots multiplicar el número introduït per cada valor del `range(1, 11)` per obtenir el resultat correcte en cada línia de la taula.
 
-### Exercici 7: Números Parells fins a un Nombre Determinat
+### Exercici 7: Números parells fins a un nombre determinat
 
-Escriu un programa que demani a l’usuari un número sencer positiu `n` i, després, mostri tots els números parells des de `0` fins a `n` (incloent `n` si aquest és parell).
+Escriu un programa que demani a l’usuari un número enter positiu `n` i, després, mostri tots els números parells des de `0` fins a `n` (incloent `n` si aquest és parell).
 
 #### Exemple d'execució
 
 ```bash
-Introdueix un número sencer positiu: 10
+Introdueix un número enter positiu: 10
 0
 2
 4
@@ -90,7 +90,7 @@ Crea un programa que utilitzi un bucle `while` per permetre a l'usuari introduir
 
 ### Exercici 9: Comptar elements superiors a un valor donat
 
-Crea una llista amb diferents números enters positius i negatius. A continuació, demana a l'usuari un valor de referència (també enter) i utilitza un bucle `for` per comptar quants elements de la llista són més grans que aquest valor. Al final, mostra el nombre d’elements que compleixen la condició.
+Crea una llista amb diferents números enters positius i negatius. A continuació, demana a l'usuari un valor de referència (també enter) i utilitza un bucle `for` per comptar i afegir a una llista només els elements de la llista inicial que són més grans que aquest valor. Al final, mostra el nombre d’elements que compleixen la condició i llista'ls.
 
 ### Exercici 10: Llista de la compra
 
