@@ -123,21 +123,76 @@ llista_compra = [
 #### Exemple del programa
 
 ```bash
+LA TEVA LLISTA DE LA COMPRA
 Opcions:
 1. Afegir un element a la llista de la compra
 2. Eliminar un element de la llista de la compra
 3. Mostrar la llista de la compra
 0. Sortir
+
+*************************************************
 Escull una opció (0, 1, 2 o 3): 1
+
 Escriu el nom de l'element que vols afegir: cafè
 Element afegit a la llista.
 
+*************************************************
+Escull una opció (0, 1, 2 o 3): 3
+
+Llista de la compra actual:
+['suc de taronja', 'maduixes', 'cereals', 'pastanagues', 'cebes', 'espinacs', 'pasta de dents', 'pa', 'llet', 'ous', 'tomàquets', 'formatge', 'cafè']
+
+*************************************************
+Escull una opció (0, 1, 2 o 3):
+```
+
+Aquí tens el programa ampliat amb una nova funcionalitat per marcar els elements de la llista com a comprats:
+
+### Exercici 11: Ampliació de la llista de la compra
+
+El programa manté les mateixes funcionalitats de l'exercici anterior, però afegeix l'opció de marcar els elements com a comprats. Cada element pot estar en un d'aquests estats: per comprar o comprat.
+
+**Marcar com a comprat**: Si l'usuari introdueix `4`, podrà marcar un article de la llista com a comprat. Si l'article ja està marcat com a comprat, el programa mostrarà el missatge **"Aquest element ja està comprat."**.
+
+#### Codi d'inici
+
+Fixa't que és una llista de `tuple`. Més informació [aquí](https://www.w3schools.com/python/python_tuples.asp).
+
+```python
+# Llista inicial de la compra amb estat "per comprar"
+llista_compra = [
+    ('suc de taronja', False), ('maduixes', False), ('cereals', False),
+    ('pastanagues', False), ('cebes', False), ('espinacs', False)
+]
+```
+
+#### Exemple del programa ampliat
+
+```bash
+LA TEVA LLISTA DE LA COMPRA
 Opcions:
 1. Afegir un element a la llista de la compra
 2. Eliminar un element de la llista de la compra
 3. Mostrar la llista de la compra
+4. Marcar un element com a comprat
 0. Sortir
-Escull una opció (0, 1, 2 o 3): 3
+
+*************************************************
+Escull una opció (0, 1, 2, 3 o 4): 1
+
+Escriu el nom de l'element que vols marcar com a comprat: suc de taronja
+Element marcat com a comprat.
+
+*************************************************
+Escull una opció (0, 1, 2, 3 o 4): 3
+
 Llista de la compra actual:
-['suc de taronja', 'maduixes', 'cereals', 'pastanagues', 'cebes', 'espinacs', 'pasta de dents', 'pa', 'llet', 'ous', 'tomàquets', 'formatge', 'cafè']
+[X] suc de taronja
+[ ] maduixes
+[ ] cereals
+...
+
+*************************************************
+Escull una opció (0, 1, 2, 3 o 4):
+
 ```
