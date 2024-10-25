@@ -82,7 +82,7 @@ Dins del respositori `prova-1-prog-el_teu_nom` o dins la carpeta `prova`, crea u
 
 ### Codi 1
 
-Funcionalitat del programa: donada una paraula i un número de l’1 al 10, et diu si la paraula té més / menys lletres que el nombre donat. 
+Funcionalitat del programa: donada una paraula i un número de l’1 al 10, et diu si la paraula té més / menys lletres que el nombre donat.
 
 ```python
 Paraula = 'Hola'

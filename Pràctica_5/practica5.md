@@ -438,7 +438,7 @@ pressupost = 10  # Pressupost disponible
 
 ## Exercici 10
 
-L'usuari ha de comprar un component electrònic d'una llista donada. 
+L'usuari ha de comprar un component electrònic d'una llista donada.
 
 ```python
 # Llista d'elements i preus
@@ -469,7 +469,7 @@ Després, fes que el programa et retorni, segons les indicacions anteriors:
 
 Et pot ser útil el següent mètode dels Strings: `.split()`, que et permet dividir una cadena de text en una llista de parts utilitzant un delimitador com, per exemple, la barra `/`.
 
-### Exercici 12
+## Exercici 12
 
 Crea un programa que permeti a l'usuari gestionar la seva llista de la compra. El programa ha de tenir les següents funcionalitats:
 

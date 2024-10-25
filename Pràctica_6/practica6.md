@@ -1,10 +1,10 @@
-# PRÀCTICA 6 -  Introducció als bucles en Python
+# PRÀCTICA 6 - Introducció als bucles en Python
 
 En aquesta pràctica aprendrem a utilitzar els bucles `while` i `for`.
 
 ## Introducció
 
-Escriure
+Hi ha dues estructures primitives de Python per programar bucles i són el `while` i el `for`.
 
 ## Bucle `while`
 
@@ -67,13 +67,9 @@ else:
     print('i is no longer less than 6')
 ```
 
-## Exercici 1: Comptar fins a 50
+### Exercicis bucle `while`
 
-Crea un programa que utilitzi un bucle `while` per imprimir els números del 1 al 50.
-
-## Exercici 2: Sumar fins a un nombre
-
-Crea un programa que demani a l'usuari un nombre i utilitzi un bucle `while` per sumar els números de 1 fins a aquell nombre. Mostra el resultat final.
+Fes els [exercicis](./exercicis.md) 1 i 2.
 
 ## Bucle `for`
 
@@ -93,30 +89,112 @@ for fruit in fruits:
     print(fruit)
 ```
 
-## Exercici 3: Iterar sobre una llista
+### Exercicis bucle `for`
 
-Crea una llista amb els noms de 5 fruites i utilitza un bucle `for` per imprimir cada fruita.
+Fes els [exercicis](./exercicis.md) 3, 4, i 5.
+
+## Funció `range()` i bucles `for`
+
+La funció `range()` és molt útil quan treballem amb bucles, ja que ens permet generar seqüències de números per iterar-hi fàcilment. Aquesta funció s’utilitza amb molta freqüència dins dels bucles `for` per definir el nombre d'iteracions o per controlar el rang de valors que volem recórrer.
+
+La sintaxi de `range()` és la següent:
 
 ```python
-fruits = ['maduixa', 'plàtan', 'poma', 'kiwi', 'taronja']
+range(inici, fi, pas)
 ```
 
-## Exercici 4: Taula de multiplicar
+Cada paràmetre té un significat específic:
 
-Crea un programa que demani a l'usuari un número i utilitzi un bucle `for` per imprimir la taula de multiplicar d'aquest número (del 1 al 10).
+1. **inici** (opcional): És el valor des d'on comença la seqüència. Per defecte és `0`.
+2. **fi** (obligatori): És el valor fins al qual arriba la seqüència, però **no s'inclou en el rang**.
+3. **pas** (opcional): És el salt entre els valors successius de la seqüència. El valor per defecte és `1`.
 
-## Exercici 5: Sumar elements d'una llista
+### Exemples d'ús de `range()`
 
-Crea una llista amb números enters. Utilitza un bucle `for` per sumar tots els números de la llista i imprimir el resultat.
+#### 1. Usar `range()` amb un únic argument
 
-## Exercici 6: Contar elements
+Quan `range()` té només un argument, aquest indica el **valor de finalització**, mentre que l'inici per defecte serà `0`, i el pas serà `1`.
 
-Crea una llista amb alguns noms. Utilitza un bucle `for` per comptar quants noms hi ha en la llista i imprimeix el resultat.
+```python
+for i in range(5):
+    print(i)
+```
 
-## Exercici 7: Sumar números fins que l'usuari vulgui
+**Sortida**:
 
-Crea un programa que utilitzi un bucle `while` per permetre a l'usuari introduir números fins que introdueixi un `0`. Al final, imprimeix la suma total dels números introduïts.
+```bash
+0
+1
+2
+3
+4
+```
 
-## Exercici 8: Mostrar llista de la compra
+En aquest exemple, `range(5)` genera els números `0` fins a `4`, ja que `5` és el valor de finalització i no s'inclou en el rang.
 
-Crea un programa que permeti a l'usuari introduir elements en una llista de la compra. Utilitza un bucle `while` perquè l'usuari pugui continuar introduïnt elements fins que escrigui `fi`. Al final, mostra la llista de la compra.
+#### 2. Usar `range()` amb dos arguments
+
+Quan `range()` té dos arguments, el primer argument defineix el **valor d'inici**, i el segon, el **valor de finalització** (sense incloure’l en el rang).
+
+```python
+for i in range(2, 7):
+    print(i)
+```
+
+**Sortida**:
+
+```bash
+2
+3
+4
+5
+6
+```
+
+En aquest exemple, `range(2, 7)` genera els valors de `2` fins a `6`.
+
+#### 3. Usar `range()` amb tres arguments
+
+Quan `range()` té tres arguments, el primer defineix l’**inici**, el segon la **finalització** (sense incloure’l en el rang) i el tercer el **pas** (o salt).
+
+```python
+for i in range(1, 10, 2):
+    print(i)
+```
+
+**Sortida**:
+
+```bash
+1
+3
+5
+7
+9
+```
+
+En aquest cas, `range(1, 10, 2)` genera els números de `1` fins a `9`, amb un salt de `2` entre cada valor.
+
+#### 4. Rang en ordre descendent
+
+Podem utilitzar `range()` per crear un rang en ordre descendent, simplement indicant un pas negatiu.
+
+```python
+for i in range(10, 0, -2):
+    print(i)
+```
+
+**Sortida**:
+
+```bash
+10
+8
+6
+4
+2
+```
+
+Aquí, `range(10, 0, -2)` comença des de `10` i decreix fins a `2`, amb un salt de `-2`.
+
+### Exercicis funció `range()` i bucles `for`
+
+Fes els [exercicis](./exercicis.md) 6 i 7.
