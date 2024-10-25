@@ -1,4 +1,4 @@
-# Aplicació gestor de contactes
+# Aplicació Gestor de contactes
 
 ## Objectiu
 
@@ -40,16 +40,10 @@ L'usuari ha de poder sortir del programa. Aquest mostrarà un missatge de comiat
 ### Llista inicial de contactes
 
 Llista inicial de contactes:
-- Joan, 612345678, joan@example.com
-- Maria, 698765432, maria@example.com
-- Pere, 678123456, pere@example.com
-```python
-llista_contactes = [
-    {"nom": "Joan", "telèfon": "612345678", "email": "joan@example.com"},
-    {"nom": "Maria", "telèfon": "698765432", "email": "maria@example.com"},
-    {"nom": "Pere", "telèfon": "678123456", "email": "pere@example.com"}
-]
-```
+
+- Joan, 612345678, [joan@example.com]
+- Maria, 698765432, [maria@example.com]
+- Pere, 678123456, [pere@example.com]
 
 ## A tenir en compte
 
