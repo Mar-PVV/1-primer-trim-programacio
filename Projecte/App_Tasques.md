@@ -34,6 +34,10 @@ Permetre a l'usuari visualitzar només les tasques que tenen la data límit igua
 
 Per defecte les tasques estan ordenades tal com s'han anat afegit. Tot i això, l'usuari pot ordenar una tasca indicant la posició específica.
 
+### Sortir del programa
+
+L'usuari ha de poder sortir del programa quan ho requereixi, si l'usuari no ho indica el programa ha de continuar proposant quina acció vol fer a continuació l'usuari. Si l'usuari indica que vol sortir, aquest mostrarà un missatge de comiat i finalitzarà l'execució.
+
 ## A tenir en compte
 
 - El programa ha de ser amigable i proporcionar retroalimentació clara a l'usuari.

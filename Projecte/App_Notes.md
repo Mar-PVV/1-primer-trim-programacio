@@ -30,6 +30,10 @@ Permetre a l'usuari eliminar una nota introduint el títol de la nota que vol el
 
 El programa sempre ha d'ordenar les notes per data i hora de creació.
 
+### Sortir del programa
+
+L'usuari ha de poder sortir del programa quan ho requereixi, si l'usuari no ho indica el programa ha de continuar proposant quina acció vol fer a continuació l'usuari. Si l'usuari indica que vol sortir, aquest mostrarà un missatge de comiat i finalitzarà l'execució.
+
 ### Notes inicials
 
 **Nota inicial 1:**

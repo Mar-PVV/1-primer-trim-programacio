@@ -31,7 +31,7 @@ L'objectiu d'aquest projecte és desenvolupar una aplicació de gestió de conta
 
 ### Sortir del programa
 
-L'usuari ha de poder sortir del programa. Aquest mostrarà un missatge de comiat i finalitzarà l'execució.
+L'usuari ha de poder sortir del programa quan ho requereixi, si l'usuari no ho indica el programa ha de continuar proposant quina acció vol fer a continuació l'usuari. Si l'usuari indica que vol sortir, aquest mostrarà un missatge de comiat i finalitzarà l'execució.
 
 ### Gestió d'error
 

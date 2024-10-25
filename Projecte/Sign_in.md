@@ -35,6 +35,10 @@ El vostre projecte consisteix a desenvolupar la funcionalitat de sign in per a u
 - Comprovar que el format és correcte.
 - Verificar que l'usuari té 16 anys o més. Si l'usuari no compleix aquesta condició, s'ha de mostrar un missatge d'error.
 
+### Sortir del programa
+
+L'usuari ha de poder sortir del programa quan ho requereixi, si l'usuari no ho indica el programa ha de proposar si l'usuari vol introduir un altre usuari. Si l'usuari indica que vol sortir, aquest mostrarà un missatge de comiat i finalitzarà l'execució.
+
 ## A tenir en compte
 
 El programa ha de ser amigable i proporcionar retroalimentació clara a l'usuari en cada pas del procés de registre.
