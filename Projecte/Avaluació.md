@@ -1,0 +1,20 @@
+# Avaluació del projecte
+
+## Rúbrica d'Avaluació del Projecte
+
+| Competència | Criteri | Indicador | Puntuació |
+|-------------|---------|-----------|-----------|
+| **Competència 1: Anàlisi de necessitats** | Proposta de solució | - Es proposa una solució informàtica viable i adequada. | 1 punt |
+| **Competència 2: Creació de prototips visuals** | Usabilitat | - L'interfície dissenyada és intuïtiva i fàcil d'utilitzar per part dels usuaris. | 1 punt |
+| **Competència 3: Desenvolupament de solucions informàtiques** | Implementació del programa | - El programa funciona correctament i implementa totes les funcionalitats especificades. | 1 punt |
+| | Estructura del codi | - El codi és net, ben estructurat i documentat, facilitant la comprensió. | 3 punts |
+| | Ús adequat del llenguatge de programació | - S'utilitzen les funcions, bucles i condicions de manera adequada i eficient en el codi. | 3 punts |
+| **Competència addicional: Treball en equip** | Repartiment de tasques | - Les tasques estan ben repartides entre els membres de l'equip, i tots els membres contribueixen al projecte. | 1 punt |
+
+## Nota final
+
+La nota final del projecte es calcularà sumant els punts obtinguts en cada indicador, amb un màxim de 10 punts. Aquesta nota representarà un 50% de la nota de pràctiques del primer trimestre.
+
+## A tenir en compte
+
+Qualsevol sospita de còpia representarà un 0 de la part pràctica de la màteria d'aquest primer trimestre.
