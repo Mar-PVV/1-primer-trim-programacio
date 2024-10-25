@@ -16,6 +16,7 @@ El vostre projecte consisteix a desenvolupar la funcionalitat de sign in per a u
   - `alex.smith`
   - `carla`
 - Si el nom d'usuari ja existeix, s'ha de mostrar un missatge d'error indicant que l'usuari ha de triar un altre nom.
+- El nom d'usuari no pot contenir espais.
 
 ### Creació de la contrasenya
 

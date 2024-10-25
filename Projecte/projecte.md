@@ -10,15 +10,15 @@ En aquest projecte, cada parella ha de desenvolupar una aplicació única. L'obj
 
 ## Temes per Escollir
 
-1. **Gestor de Contactes:** Desenvolupar una aplicació que permeti afegir, eliminar i buscar contactes, així com guardar informació addicional com ara números de telèfon i correus electrònics. [+ info](./App_Contactes.md)
+1. **Gestor de Contactes:** Desenvolupar una aplicació que permeti afegir, eliminar i buscar contactes, així com guardar informació addicional com ara números de telèfon i correus electrònics. [+ info](./projecte_App_Contactes.md)
 
-2. **Llibreta de Notes:** Crear una aplicació que permeti als usuaris afegir, editar, eliminar i ordenar notes, amb la funcionalitat d'assignar data i hora de creació. [+ info](./App_Notes.md)
+2. **Llibreta de Notes:** Crear una aplicació que permeti als usuaris afegir, editar, eliminar i ordenar notes, amb la funcionalitat d'assignar data i hora de creació. [+ info](./projecte_App_Notes.md)
 
-3. **Gestor de Tasques:** Desenvolupar una aplicació que permeti afegir, eliminar, fer diferents cerques, marcar com a completades i ordenar tasques. [+ info](./App_Tasques.md)
+3. **Gestor de Tasques:** Desenvolupar una aplicació que permeti afegir, eliminar, fer diferents cerques, marcar com a completades i ordenar tasques. [+ info](./projecte_App_Tasques.md)
 
-4. **Aplicació Sign in:** Desenvolupar el Sign in a una aplicació. L'usuari ha d'introduir el nom d'usuari, una contrasenya i la data de naixement donades unes condicions. [+ info](./Sign_in.md)
+4. **Aplicació Sign in:** Desenvolupar el Sign in a una aplicació. L'usuari ha d'introduir el nom d'usuari, una contrasenya i la data de naixement donades unes condicions. [+ info](./projecte_Sign_in.md)
 
-5. **Desxifrador de Missatges:** Desenvolupar un programa que permeti desxifrar un missatge (xifrat amb xifratge de Cèsar) del qual no en sabem la clau. [+ info](./Desxifrar_missatges.md)
+5. **Desxifrador de Missatges:** Desenvolupar un programa que permeti desxifrar un missatge (xifrat amb xifratge de Cèsar) del qual no en sabem la clau. [+ info](./projecte_Desxifrar_missatges.md)
 
 ## A tenir en compte
   
