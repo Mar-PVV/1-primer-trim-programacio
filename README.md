@@ -19,3 +19,7 @@ Ves al material de la [pràctica 4](./Pràctica_4/practica4.md).
 ## Pràctica 5 - Llistes
 
 Ves al material de la [pràctica 5](./Pràctica_5/practica5.md).
+
+## Pràctica 6 - Bucles
+
+Ves al material de la [pràctica 6](./Pràctica_6/practica6.md).
