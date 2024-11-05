@@ -17,4 +17,5 @@ La nota final del projecte es calcularà sumant els punts obtinguts en cada indi
 
 ## A tenir en compte
 
-Qualsevol sospita de còpia representarà un 0 de la part pràctica de la màteria d'aquest primer trimestre.
+- Qualsevol sospita de còpia o còpia representarà un 0 de la part pràctica de la màteria d'aquest primer trimestre.
+- Si una gran part del projecte recau en un sol membre de la parella, la puntuació del projecte del membre que no treballa (o ha treballat molt poc) es pot veure afectada (dividir la nota final entre 2) o, en un cas extrem, pot ser directament un 0.

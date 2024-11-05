@@ -28,6 +28,10 @@ Ves al material de la [pràctica 6](./Pràctica_6/practica6.md).
 
 Ves al material de la [pràctica 7](./Pràctica_7/practica7.md).
 
+## Avaluació de les pràctiques
+
+Consulta la rúbrica d'avaluació de les pràctiques [aquí](./Altres_documents/Avaluació_pràctiques.md).
+
 ## Projecte final del primer trimestre
 
 Ves al material del [projecte](./Projecte/projecte.md).
