@@ -489,6 +489,33 @@ llista_compra = [
     'pasta de dents', 'pa', 'llet', 'ous', 'tomàquets', 'cereals', 'formatge'
 ]
 ```
+Ajuda:
+```python
+llista_compra = [
+    'suc de taronja', 'maduixes', 'cereals', 'pastanagues', 'cebes', 'espinacs',
+    'pasta de dents', 'pa', 'llet', 'ous', 'tomàquets', 'cereals', 'formatge'
+]
+
+print('Benvingut a la llista de la compra. Què vols fer?')
+print('Opció 1: Afegir un element a la llista.')
+print('Opció 2: Eliminar un element de la llista.')
+print('Opció 3: Mostrar la llista.')
+
+opcio = int(input('Opció escolldia: '))
+
+if opcio == 1:
+    # Quin element vols afegir?
+    # Mirar que no estigui a la llista actual, si hi és, tornar error.
+    # Si tot ok, afegeixo element a la llista.
+elif opcio == 2:
+    # Quin element vols eliminar?
+    # Mirar que estigui a la llista actual, si no hi és, tornar error.
+    # Si tot ok, elimino element a la llista.
+elif opcio == 3:
+    # print de llista
+else:
+    print('Opció incorrecta!')
+```
 
 ## Per tancar la pràctica
 
