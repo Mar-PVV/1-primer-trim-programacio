@@ -137,7 +137,7 @@ print(divisors(12))  # Ha de mostrar [1, 2, 3, 4, 6, 12]
 Crea una funció anomenada `es_primer` que prengui un número enter com a paràmetre i retorni `True` si el número és primer, o `False` en cas contrari.
 
 1. La funció ha de verificar si el número és menor que 2, en aquest cas retorna `False`.
-2. Utilitza un bucle `for` per comprovar si el número té divisors entre 2 i la seva arrel quadrada.
+2. Utilitza un bucle `for` per comprovar si el número té divisors entre 2 i el nombre mateix.
 3. Si el número té algun divisor en aquest interval, retorna `False`.
 4. Si no té divisors, retorna `True`.
 
@@ -218,7 +218,7 @@ Crea un programa que generi la Successió de Fibonacci segons els paràmetres in
 
 ```bash
 Introdueix el primer terme de la successió: 0
-Introdueix la diferència de la successió: 3
+Introdueix el segon terme de la successió: 3
 Introdueix el nombre de termes a generar: 6
 La progressió aritmètica és: [0, 3, 3, 6, 9, 15]
 ```
