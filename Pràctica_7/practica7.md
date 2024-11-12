@@ -258,20 +258,30 @@ print(f"Suma: {resultat_suma}, Resta: {resultat_resta}")
 
 Aquesta tècnica no només millora la llegibilitat del codi, sinó que també facilita la col·laboració i el treball en equip, ja que cada membre pot treballar en diferents fitxers sense tants conflictes.
 
-### Exercici 9: Càlcul del Mínim Comú Múltiple (mcm)
+### Exercici 9: Càlcul del Màxim Comú Divisor (MCD)
+
+Crea un programa que permeti a l'usuari calcular el màxim comú dividor (MCD) de dos nombres enters positius. Les funcions definides han d'anar a un fitxer `.py` a part. El programa ha de seguir els següents passos:
+
+1. Demanar a l'usuari que introdueixi dos nombres enters positius.
+2. Definir una funció anomenada `calcular_MCD` que accepti aquests dos nombres com a arguments.
+3. Calcular el MCD. Utilitza la funció ja desenvolupada a l'exercici 4, `divisors`.
+4. Retornar el valor del MCD i mostrar-lo a l'usuari.
+5. El programa torna a demanar dos nombres enters positius. El programa s'acaba quan l'usuari introdueix dos zeros.
+
+Assegura't de validar que els nombres introduïts són positius, et pots suposar que segur que són enters, abans de fer el càlcul.
+
+### Exercici 10: Millorem la llista de la compra
+
+Copia la resolució de l'exercici 10 de la [pràctica 6](/Pràctica_6/exercicis.md) (o 11 si vas fer l'ampliació) i millora el codi per tal de que quedi més net i ordenat utilitzant les funcions. Aquestes han d'anar en un fitxer `.py` a part.
+
+### EXTRA: Càlcul del Mínim Comú Múltiple (mcm)
 
 Crea un programa que permeti a l'usuari calcular el mínim comú múltiple (mcm) de dos nombres enters positius. Les funcions definides han d'anar a un fitxer `.py` a part. El programa ha de seguir els següents passos:
 
 1. Demanar a l'usuari que introdueixi dos nombres enters positius.
 2. Definir una funció anomenada `calcular_mcm` que accepti aquests dos nombres com a arguments.
-3. Calcular el mcm.
+3. Calcular el mcm. Per aquesta funció, cal que abans defineixis la funció `descomposicio_factors`, la qual retorna una llista amb els factors que formen un nombre. Recorda la [descomposició en factors d'un nombre enter](https://ca.wikipedia.org/wiki/Factoritzaci%C3%B3_dels_enters) i el [càlcul del mcm a partir dels factors d'un nombre](https://ca.wikipedia.org/wiki/M%C3%ADnim_com%C3%BA_m%C3%BAltiple).
 4. Retornar el valor del mcm i mostrar-lo a l'usuari.
 5. El programa torna a demanar dos nombres enters positius. El programa s'acaba quan l'usuari introdueix dos zeros.
 
 Assegura't de validar que els nombres introduïts són positius abans de fer el càlcul.
-
-L'usuari podrà anar calculant el mcm de diferents nombres fins que introdueixi `fi` i el tanqui el programa.
-
-### Exercici 10: Millorem la llista de la compra
-
-Copia la resolució de l'exercici 10 de la [pràctica 6](/Pràctica_6/exercicis.md) (o 11 si vas fer l'ampliació) i millora el codi per tal de que quedi més net i ordenat utilitzant les funcions. Aquestes han d'anar en un fitxer `.py` a part.
