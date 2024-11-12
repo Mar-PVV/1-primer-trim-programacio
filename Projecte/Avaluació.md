@@ -13,7 +13,7 @@
 
 ## Nota final
 
-La nota final del projecte es calcularà sumant els punts obtinguts en cada indicador, amb un màxim de 10 punts. Aquesta nota representarà un 50% de la nota de pràctiques del primer trimestre.
+La nota final del projecte es calcularà sumant els punts obtinguts en cada indicador, amb un màxim de 10 punts. Aquesta nota tindrà el mateix per que una de les pràctiques del primer trimestre (a partir de la pràctica 4).
 
 ## A tenir en compte
 
