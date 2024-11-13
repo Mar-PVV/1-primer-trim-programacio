@@ -34,4 +34,4 @@ Consulta la rúbrica d'avaluació de les pràctiques [aquí](./Altres_documents/
 
 ## Projecte final del primer trimestre
 
-Ves al material del [projecte](./Projecte/projecte.md).
+Ves al material del [projecte](./Projecte/README.md).
