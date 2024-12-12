@@ -65,12 +65,12 @@ A més dels comentaris al codi, és essencial proporcionar una documentació cla
    ```markdown
    ## Exemples d'Ús
    - Afegir "maduixes": Element afegit a la llista.
-      ```bash
+
          Què vols fer? 2
          Quin producte vols afegir a la llista? Maduixes
          Maduixes afegides a la llista de la compra!
          Què vols fer ara?
-      ```
+      
    - Eliminar "tomàquets": Element eliminat de la llista.
    - Mostrar llista: ['suc de taronja', 'maduixes', ...]
    ```
@@ -81,14 +81,10 @@ A més dels comentaris al codi, és essencial proporcionar una documentació cla
     ```markdown
     ## Funcionament
     1. En executar el programa, el programa mostra a l'usuari les diferents funcionalitats d'aquest.
-       ```python
          <bloc de codi que mostra les opcions a l'usuari.>
-       ```
+    
     2. Afegir element
-       ```python
          <bloc de codi/funció que afegeix un element a la llista.>
-       ```
-
     ```
 
 5. **Autors:**
